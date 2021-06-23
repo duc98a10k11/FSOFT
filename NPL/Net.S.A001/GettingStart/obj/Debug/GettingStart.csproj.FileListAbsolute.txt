@@ -1,0 +1,7 @@
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\Net.S.A001\GettingStart\bin\Debug\GettingStart.exe.config
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\Net.S.A001\GettingStart\bin\Debug\GettingStart.exe
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\Net.S.A001\GettingStart\bin\Debug\GettingStart.pdb
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\Net.S.A001\GettingStart\obj\Debug\GettingStart.csprojAssemblyReference.cache
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\Net.S.A001\GettingStart\obj\Debug\GettingStart.csproj.CoreCompileInputs.cache
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\Net.S.A001\GettingStart\obj\Debug\GettingStart.exe
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\Net.S.A001\GettingStart\obj\Debug\GettingStart.pdb
