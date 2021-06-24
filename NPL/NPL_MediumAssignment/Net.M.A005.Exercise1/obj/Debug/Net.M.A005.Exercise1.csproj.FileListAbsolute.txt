@@ -1,0 +1,7 @@
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A005.Exercise1\bin\Debug\Net.M.A005.Exercise1.exe.config
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A005.Exercise1\bin\Debug\Net.M.A005.Exercise1.exe
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A005.Exercise1\bin\Debug\Net.M.A005.Exercise1.pdb
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A005.Exercise1\obj\Debug\Net.M.A005.Exercise1.csprojAssemblyReference.cache
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A005.Exercise1\obj\Debug\Net.M.A005.Exercise1.csproj.CoreCompileInputs.cache
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A005.Exercise1\obj\Debug\Net.M.A005.Exercise1.exe
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A005.Exercise1\obj\Debug\Net.M.A005.Exercise1.pdb

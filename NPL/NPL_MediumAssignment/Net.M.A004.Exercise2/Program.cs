@@ -14,7 +14,7 @@ namespace Net.M.A004.Exercise2
         {
             // Initialize result
             int result = poly[0];
-
+           
             // Evaluate value of polynomial
             // using Horner's method
             for (int i = 1; i < n; i++)
@@ -28,8 +28,8 @@ namespace Net.M.A004.Exercise2
         {
             // Let us evaluate value of
             // 2x3 - 6x2 + 2x - 1 for x = 3
-            int[] poly = { 2, -6, 2, -1 };
-            int x = 3;
+            int[] poly = { 2,-6, 2, -1 };
+            int x = 2;
             int n = poly.Length;
             Console.Write("Value of polynomial is "
                                 + horner(poly, n, x));

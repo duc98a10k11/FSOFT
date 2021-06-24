@@ -4,3 +4,4 @@ D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A004.Exercise2\bin\
 D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A004.Exercise2\obj\Debug\Net.M.A004.Exercise2.csproj.CoreCompileInputs.cache
 D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A004.Exercise2\obj\Debug\Net.M.A004.Exercise2.exe
 D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A004.Exercise2\obj\Debug\Net.M.A004.Exercise2.pdb
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A004.Exercise2\obj\Debug\Net.M.A004.Exercise2.csprojAssemblyReference.cache
