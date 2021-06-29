@@ -1,0 +1,7 @@
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A010\bin\Debug\Net.M.A010.exe.config
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A010\bin\Debug\Net.M.A010.exe
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A010\bin\Debug\Net.M.A010.pdb
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A010\obj\Debug\Net.M.A010.csprojAssemblyReference.cache
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A010\obj\Debug\Net.M.A010.csproj.CoreCompileInputs.cache
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A010\obj\Debug\Net.M.A010.exe
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A010\obj\Debug\Net.M.A010.pdb
