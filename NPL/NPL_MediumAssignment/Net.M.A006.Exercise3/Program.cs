@@ -23,7 +23,7 @@ namespace Net.M.A006.Exercise3
             }
 
             // write result
-            Console.WriteLine($"Greatest common divisor of array is {findGCD(x,n)}");
+            Console.WriteLine($"Greatest common divisor of array is {FindGCD(x,n)}");
         }
 
         #region Method
@@ -33,11 +33,11 @@ namespace Net.M.A006.Exercise3
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns>gcd of a and b</returns>
-        static int gcd(int a, int b)
+        static int Gcd(int a, int b)
         {
             if (a == 0)
                 return b;
-            return gcd(b % a, a);
+            return Gcd(b % a, a);
         }
 
         /// <summary>
@@ -46,12 +46,12 @@ namespace Net.M.A006.Exercise3
         /// <param name="arr">array input</param>
         /// <param name="n">length of array</param>
         /// <returns>gcd of array</returns>
-        static int findGCD(int[] arr, int n)
+        static int FindGCD(int[] arr, int n)
         {
             int result = arr[0];
             for (int i = 1; i < n; i++)
             {
-                result = gcd(arr[i], result);
+                result = Gcd(arr[i], result);
 
                 if (result == 1)
                 {

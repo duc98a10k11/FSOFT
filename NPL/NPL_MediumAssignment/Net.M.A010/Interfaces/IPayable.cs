@@ -8,6 +8,6 @@ namespace Net.M.A010.Interfaces
 {
     public interface IPayable
     {
-        double getPaymentAmount();
+        double GetPaymentAmount();
     }
 }

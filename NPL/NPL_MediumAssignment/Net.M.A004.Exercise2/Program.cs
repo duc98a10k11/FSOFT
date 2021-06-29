@@ -6,7 +6,7 @@ namespace Net.M.A004.Exercise2
     {
         // Function that returns value of poly[0]x(n-1) +
         // poly[1]x(n-2) + .. + poly[n-1]
-        static int horner(int[] poly, int n, int x)
+        static int Horner(int[] poly, int n, int x)
         {
             // Initialize result
             int result = poly[0];
@@ -28,7 +28,7 @@ namespace Net.M.A004.Exercise2
             int x = 2;
             int n = poly.Length;
             Console.Write("Value of polynomial is "
-                                + horner(poly, n, x));
+                                + Horner(poly, n, x));
         }
     }
 }

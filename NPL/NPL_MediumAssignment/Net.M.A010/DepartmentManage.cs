@@ -62,12 +62,12 @@ namespace Net.M.A010
                             //display salary employee
                             foreach (var item in salariedEmployees)
                             {
-                                item.display();
+                                item.Display();
                             }
                             //display hourly employee
                             foreach (var item in hourlyEmployees)
                             {
-                                item.display();
+                                item.Display();
                             }
                             break;
                         }
@@ -104,7 +104,7 @@ namespace Net.M.A010
             {
                 Department department = new Department();
                 Console.Write("Enter Department Name: ");
-                department.departmentName = Console.ReadLine();
+                department.DepartmentName = Console.ReadLine();
                 
                 departments.Add(department);
             }

@@ -20,7 +20,7 @@ namespace Net.M.A007.Exercise1
 
             // Check input data according to date / month / year format.
             // Display format error if entered incorrectly
-            if (!dateRegex(strDateTime))
+            if (!DateRegex(strDateTime))
             {
                 Console.WriteLine("fomat input date error");
             }
@@ -29,7 +29,7 @@ namespace Net.M.A007.Exercise1
             dateTime = DateTime.ParseExact(strDateTime, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture);
 
             //write result
-            caculateDateTime(dateTime);
+            CaculateDateTime(dateTime);
         }
 
         #region Method
@@ -42,7 +42,7 @@ namespace Net.M.A007.Exercise1
         /// false - not match with regex
         /// </returns>
         /// CreatedBy: DucLM28 (27/06/2021)
-        public static bool dateRegex(string temp)
+        public static bool DateRegex(string temp)
         {
             Regex date_regex = new Regex(@"^(?:[012]?[0-9]|3[01])[./-](?:0?[1-9]|1[0-2])[./-](?:[0-9]{2}){1,2}$");
             if (date_regex.IsMatch(temp))
@@ -57,7 +57,7 @@ namespace Net.M.A007.Exercise1
         /// </summary>
         /// <param name="dateTime">input date</param>
         /// CreatedBy: DucLM28 (27/06/2021)
-        public static void caculateDateTime(DateTime dateTime)
+        public static void CaculateDateTime(DateTime dateTime)
         {
             //notice first time
             dateTime = dateTime.AddDays(7);

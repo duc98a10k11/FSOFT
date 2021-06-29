@@ -23,7 +23,7 @@ namespace Net.M.A006.Exercise2
             } while (!int.TryParse(Console.ReadLine(), out b));
 
             //write result
-            Console.WriteLine($"Greatest common divisor of {a} and {b} is {getGreatestCommon(a,b)}");
+            Console.WriteLine($"Greatest common divisor of {a} and {b} is {GetGreatestCommon(a,b)}");
         }
         #region Method
         /// <summary>
@@ -32,7 +32,7 @@ namespace Net.M.A006.Exercise2
         /// <param name="a">number one</param>
         /// <param name="b">number two</param>
         /// <returns>result Greatest common divisor two number</returns>
-        public static int getGreatestCommon(int a, int b)
+        public static int GetGreatestCommon(int a, int b)
         {
             while (a != 0 && b != 0)
             {

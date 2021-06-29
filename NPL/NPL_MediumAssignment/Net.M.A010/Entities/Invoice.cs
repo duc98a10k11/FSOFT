@@ -10,14 +10,14 @@ namespace Net.M.A010.Entities
     public class Invoice : IPayable
     {
         #region Property
-        public string partNumber { get; set; }
-        public string partDescription { get; set; }
-        public int quantity { get; set; }
-        public double pricePerItem { get; set; }
+        public string PartNumber { get; set; }
+        public string PartDescription { get; set; }
+        public int Quantity { get; set; }
+        public double PricePerItem { get; set; }
         #endregion
 
         #region Method
-        public double getPaymentAmount()
+        public double GetPaymentAmount()
         {
             throw new NotImplementedException();
         } 

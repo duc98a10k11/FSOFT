@@ -8,9 +8,9 @@ namespace Net.M.A010.Entities
 {
     public class SalariedEmployee : Employee
     {
-        public double commissionRate { get; set; }
-        public double grossSales { get; set; }
-        public double basicSalary { get; set; }
+        public double CommissionRate { get; set; }
+        public double GrossSales { get; set; }
+        public double BasicSalary { get; set; }
 
         // contructor
         public SalariedEmployee()
@@ -20,15 +20,15 @@ namespace Net.M.A010.Entities
         public SalariedEmployee(string ssn, string firstName, string lastName,
             double commissionRate, double grossSales, double basicSalary) : base(ssn, firstName, lastName)
         {
-            this.commissionRate = commissionRate;
-            this.grossSales = grossSales;
-            this.basicSalary = basicSalary;
+            this.CommissionRate = commissionRate;
+            this.GrossSales = grossSales;
+            this.BasicSalary = basicSalary;
         }
 
-        public override void display()
+        public override void Display()
         {
-            base.display();
-            Console.WriteLine(" " + this.basicSalary + " " + this.commissionRate + " " + this.grossSales);
+            base.Display();
+            Console.WriteLine(" " + this.BasicSalary + " " + this.CommissionRate + " " + this.GrossSales);
         }
     }
 }

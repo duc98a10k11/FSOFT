@@ -27,8 +27,8 @@ namespace Net.M.A006.Exercise1
             }
 
             //write result
-            Console.WriteLine("Maximum is: "+ getMaximum(x));
-            Console.WriteLine("Minimum is: "+ getMinimum(x));
+            Console.WriteLine("Maximum is: "+ GetMaximum(x));
+            Console.WriteLine("Minimum is: "+ GetMinimum(x));
         }
         #region Method
         /// <summary>
@@ -37,7 +37,7 @@ namespace Net.M.A006.Exercise1
         /// <param name="x">input array</param>
         /// <returns>value maximum in array</returns>
         /// CreatedBy: DucLM28 (27/06/2021)
-        public static int getMaximum(int[] x)
+        public static int GetMaximum(int[] x)
         {
             return x.Max();
         }
@@ -48,7 +48,7 @@ namespace Net.M.A006.Exercise1
         /// <param name="x">input array</param>
         /// <returns>value maximum in array</returns>
         /// CreatedBy: DucLM28 (27/06/2021)
-        public static int getMinimum(int[] x)
+        public static int GetMinimum(int[] x)
         {
             return x.Min();
         } 

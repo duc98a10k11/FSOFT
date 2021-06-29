@@ -8,12 +8,12 @@ namespace Net.M.A010.Entities
 {
     public class Department
     {
-        public string departmentName { get; set; }
-        public List<Employee> listOfEmployee { get; set; }
+        public string DepartmentName { get; set; }
+        public List<Employee> ListOfEmployee { get; set; }
 
         public void display()
         {
-            Console.WriteLine($"DepartmentName: {this.departmentName}");
+            Console.WriteLine($"DepartmentName: {this.DepartmentName}");
         }
     }
 }

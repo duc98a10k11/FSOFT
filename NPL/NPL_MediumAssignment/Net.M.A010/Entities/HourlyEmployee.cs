@@ -8,19 +8,19 @@ namespace Net.M.A010.Entities
 {
     public class HourlyEmployee : Employee
     {
-        public double rate { get; set; }
-        public double workingHours { get; set; }
+        public double Rate { get; set; }
+        public double WorkingHours { get; set; }
 
         public HourlyEmployee(string ssn, string firstName, string lastName, double rate, double workingHours) : base(ssn, firstName, lastName)
         {
-            this.rate = rate;
-            this.workingHours = workingHours;
+            this.Rate = rate;
+            this.WorkingHours = workingHours;
         }
 
-        public override void display()
+        public override void Display()
         {
-            base.display();
-            Console.WriteLine(" " + this.rate + " " + this.workingHours);
+            base.Display();
+            Console.WriteLine(" " + this.Rate + " " + this.WorkingHours);
         }
     }
 }

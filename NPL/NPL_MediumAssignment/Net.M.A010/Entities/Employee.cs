@@ -10,19 +10,19 @@ namespace Net.M.A010.Entities
 {
     public abstract class Employee : IPayable
     {
-        public string ssn { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
+        public string Ssn { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
-        private string _birthDate;
-        public string birthDate
+        private string _BirthDate;
+        public string BirthDate
         {
             set
             {
                 Regex date_regex = new Regex(@"^(?:[012]?[0-9]|3[01])[./-](?:0?[1-9]|1[0-2])[./-](?:[0-9]{2}){1,2}$");
                 if (date_regex.IsMatch(value.Trim()))
                 {
-                    _birthDate = value.Trim();
+                    _BirthDate = value.Trim();
                 }
                 else
                 {
@@ -30,10 +30,10 @@ namespace Net.M.A010.Entities
 
                 }
             }
-            get { return _birthDate; }
+            get { return _BirthDate; }
         }
-        public string phone { get; set; }
-        public string email { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
 
         /// <summary>
         /// contructor
@@ -50,18 +50,18 @@ namespace Net.M.A010.Entities
         /// Created: DucLM28 (29/06/2021)
         public Employee(string ssn, string firstName, string lastName)
         {
-            this.ssn = ssn;
-            this.firstName = firstName;
-            this.lastName = lastName;
+            this.Ssn = ssn;
+            this.FirstName = firstName;
+            this.LastName = lastName;
         }
 
-        public virtual void display()
+        public virtual void Display()
         {
-            Console.Write(this.ssn + " " + this.firstName + " " + this.lastName
-                + " " + this.birthDate + " " + this.email + " " + this.phone);
+            Console.Write(this.Ssn + " " + this.FirstName + " " + this.LastName
+                + " " + this.BirthDate + " " + this.Email + " " + this.Phone);
         }
 
-        public double getPaymentAmount()
+        public double GetPaymentAmount()
         {
             throw new NotImplementedException();
         }
