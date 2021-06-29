@@ -12,7 +12,8 @@ namespace Net.M.A010
         static void Main(string[] args)
         {
             int keyMenu;
-            List<Employee> employees = new List<Employee>();
+            List<SalariedEmployee> salariedEmployees = new List<SalariedEmployee>();
+            List<HourlyEmployee> hourlyEmployees = new List<HourlyEmployee>();
             List<Department> departments = new List<Department>();
 
             do
@@ -33,12 +34,41 @@ namespace Net.M.A010
                 {
                     case 1:
                         {
-                            //Enter list department
-                            departments = enterDepartment();
+                            // Enter list employee
+                            Console.Write("Enter total Salary Employees want to import: ");
+                            int totalEmployee;
+                            int.TryParse(Console.ReadLine(), out totalEmployee);
+
+                            for (int i = 0; i < totalEmployee; i++)
+                            {
+                                salariedEmployees.Add(enterSalariedEmployee());
+                            }
+                            
+                            Console.Write("Enter total Salary Employees want to import: ");
+                            int.TryParse(Console.ReadLine(), out totalEmployee);
+
+                            for (int i = 0; i < totalEmployee; i++)
+                            {
+                                hourlyEmployees.Add(enterHourlyEmployee());
+                            }
+
+                            //enter list departments
+                            departments = enterDepartments();
+                            
                             break;
                         }
                     case 2:
                         {
+                            //display salary employee
+                            foreach (var item in salariedEmployees)
+                            {
+                                item.display();
+                            }
+                            //display hourly employee
+                            foreach (var item in hourlyEmployees)
+                            {
+                                item.display();
+                            }
                             break;
                         }
                     case 3:
@@ -59,11 +89,13 @@ namespace Net.M.A010
             } while (keyMenu != 0);
         }
 
-        static List<Department> enterDepartment()
+        static List<Department> enterDepartments()
         {
             List<Department> departments = new List<Department>();
+
             Console.WriteLine("****************************");
             Console.WriteLine("Input list Departments");
+
             Console.Write("Enter total Department want to import: ");
             int totalDepartment;
             int.TryParse(Console.ReadLine(), out totalDepartment);
@@ -73,9 +105,62 @@ namespace Net.M.A010
                 Department department = new Department();
                 Console.Write("Enter Department Name: ");
                 department.departmentName = Console.ReadLine();
+                
                 departments.Add(department);
             }
             return departments;
+        }
+
+        public static SalariedEmployee enterSalariedEmployee()
+        {
+            Console.WriteLine("****************************");
+            Console.WriteLine("Input list Salary Employees");
+            Console.Write("Enter ssn: ");
+            string ssn = Console.ReadLine();
+            Console.Write("Enter firstName: ");
+            string firstName = Console.ReadLine();
+            Console.Write("Enter lastName: ");
+            string lastName = Console.ReadLine();
+            //Console.Write("Enter Birth Date: ");
+            //string birthDate = Console.ReadLine();
+            //Console.Write("Enter Email: ");
+            //string email = Console.ReadLine();
+
+            Console.Write("Enter CommisstionRate: ");
+            double commissionRate = double.Parse(Console.ReadLine());
+            Console.Write("Enter GrossSales:");
+            double grossSales = double.Parse(Console.ReadLine());
+            Console.Write("Enter BasicSalary: ");
+            double basicSalary = double.Parse(Console.ReadLine());
+
+            SalariedEmployee salariedEmployee = new SalariedEmployee(ssn, firstName, lastName, commissionRate, grossSales, basicSalary);
+
+            return salariedEmployee;
+        }
+
+        public static HourlyEmployee enterHourlyEmployee()
+        {
+            Console.WriteLine("****************************");
+            Console.WriteLine("Input list Salary Employees");
+            Console.Write("Enter ssn: ");
+            string ssn = Console.ReadLine();
+            Console.Write("Enter firstName: ");
+            string firstName = Console.ReadLine();
+            Console.Write("Enter lastName: ");
+            string lastName = Console.ReadLine();
+            //Console.Write("Enter Birth Date: ");
+            //string birthDate = Console.ReadLine();
+            //Console.Write("Enter Email: ");
+            //string email = Console.ReadLine();
+
+            Console.Write("Enter Rate: ");
+            double rate = double.Parse(Console.ReadLine());
+            Console.Write("Enter Working hour:");
+            double workingHour = double.Parse(Console.ReadLine());
+
+            HourlyEmployee hourlyEmployee = new HourlyEmployee(ssn, firstName, lastName,rate,workingHour );
+
+            return hourlyEmployee;
         }
     }
 }

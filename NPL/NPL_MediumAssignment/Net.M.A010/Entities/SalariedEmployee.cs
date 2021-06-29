@@ -13,12 +13,22 @@ namespace Net.M.A010.Entities
         public double basicSalary { get; set; }
 
         // contructor
-        public SalariedEmployee(string ssn, string firstName, string lastName, 
-            double commissionRate, double grossSales, double basicSalary):base(ssn,firstName,lastName)
+        public SalariedEmployee()
+        {
+
+        }
+        public SalariedEmployee(string ssn, string firstName, string lastName,
+            double commissionRate, double grossSales, double basicSalary) : base(ssn, firstName, lastName)
         {
             this.commissionRate = commissionRate;
             this.grossSales = grossSales;
             this.basicSalary = basicSalary;
+        }
+
+        public override void display()
+        {
+            base.display();
+            Console.WriteLine(" " + this.basicSalary + " " + this.commissionRate + " " + this.grossSales);
         }
     }
 }

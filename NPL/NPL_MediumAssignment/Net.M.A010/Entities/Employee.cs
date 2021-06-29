@@ -13,21 +13,24 @@ namespace Net.M.A010.Entities
         public string ssn { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
-        public string birthDate 
-        { 
-            get { return this.birthDate; }
-            set { 
+
+        private string _birthDate;
+        public string birthDate
+        {
+            set
+            {
                 Regex date_regex = new Regex(@"^(?:[012]?[0-9]|3[01])[./-](?:0?[1-9]|1[0-2])[./-](?:[0-9]{2}){1,2}$");
                 if (date_regex.IsMatch(value.Trim()))
                 {
-                    this.birthDate = value.Trim();
+                    _birthDate = value.Trim();
                 }
                 else
                 {
                     Console.WriteLine("BirthDate is not correct format (dd/MM/yyy)");
 
                 }
-            } 
+            }
+            get { return _birthDate; }
         }
         public string phone { get; set; }
         public string email { get; set; }
@@ -52,9 +55,10 @@ namespace Net.M.A010.Entities
             this.lastName = lastName;
         }
 
-        public void display()
+        public virtual void display()
         {
-            
+            Console.Write(this.ssn + " " + this.firstName + " " + this.lastName
+                + " " + this.birthDate + " " + this.email + " " + this.phone);
         }
 
         public double getPaymentAmount()

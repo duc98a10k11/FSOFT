@@ -47,6 +47,7 @@
     <Compile Include="Entities\Department.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Entities\HourlyEmployee.cs" />
+    <Compile Include="Entities\Invoice.cs" />
     <Compile Include="Entities\SalariedEmployee.cs" />
     <Compile Include="Interfaces\IPayable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
