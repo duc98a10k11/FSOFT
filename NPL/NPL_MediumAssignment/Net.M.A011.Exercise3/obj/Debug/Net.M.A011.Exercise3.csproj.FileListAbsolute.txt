@@ -1,0 +1,6 @@
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A011.Exercise3\bin\Debug\Net.M.A011.Exercise3.exe.config
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A011.Exercise3\bin\Debug\Net.M.A011.Exercise3.exe
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A011.Exercise3\bin\Debug\Net.M.A011.Exercise3.pdb
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A011.Exercise3\obj\Debug\Net.M.A011.Exercise3.csproj.CoreCompileInputs.cache
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A011.Exercise3\obj\Debug\Net.M.A011.Exercise3.exe
+D:\DUC\FPT\fresher_2021\FSOFT\NPL\NPL_MediumAssignment\Net.M.A011.Exercise3\obj\Debug\Net.M.A011.Exercise3.pdb
